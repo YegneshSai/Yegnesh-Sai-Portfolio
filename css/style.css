@@ -1,0 +1,238 @@
+/* import fonts frpm fonts.css file*/
+@import url(./fonts.css); 
+
+.text-uppercase{
+    font-family: "Roboto";
+}
+
+.navbar_fixed{
+    position:fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;right: 0;
+    background: #ffffff;
+    box-shadow: #ebe3e3;
+    z-index: 999;
+    transition: background 1s ease;
+}
+
+/* primarybutton */
+
+.primary-button{
+    border: .8px solid rgb(63, 138, 212);
+}
+.primary-button:hover{
+    background-color:rgb(63, 138, 212);
+    transition: 1s;
+
+}
+
+
+/* global para */
+p.para{
+    color: rgb(82, 74, 74);
+    font: normal 500 16px/25px;
+    font-family: "Roboto";
+}
+/* start navigation */
+
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding:0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    height: 5rem;
+}
+.header_area .main-menu .nav-box{
+
+    display: inline;
+    width: 100%;
+}
+.header_area .main-menu .nav-box .navbar-nav{
+    overflow: hidden;
+}
+.header_area .main-menu .nav-box .navbar-nav li{
+    float: left;
+}
+.header_area .main-menu .nav-box  span{
+    float: left;
+    width: 18%;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font-family:"Roboto",cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding:1.7rem;
+    color:rgb(0, 0, 0);
+    font-size: 0.8rem;
+    text-align: center;
+}
+.header_area .main-menu .navbar .active a{
+    color:rgb(63, 138, 212);
+}
+
+.header_area .main-menu .navbar a:hover{
+    color:rgb(63, 138, 212);
+}
+/* end navigation */
+
+/* start banner */
+#res{
+    color: black;
+}
+.site-main .site-banner{
+    margin-bottom: 20%;
+}
+.site-main .site-banner .banner-container{
+    height: 100%;
+}
+.site-main .site-banner .container .site-title h3{
+    padding-top: 30% ;
+}
+
+.site-main .site-banner .container .site-title{
+    width: 65%;
+    margin-left: 5%;
+    padding-left: 25%;
+}
+.site-main .site-banner .container .site-title>h1{
+   font-size: 2rem;
+}
+.site-main .site-banner .container .site-title>h4{
+   font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image{
+
+    width: 30%;
+}
+.site-main .site-banner .banner-image >img{
+    height: 100%;
+    
+
+}
+
+
+/* end banner */
+
+
+/* start about me */
+
+
+
+.about-image{
+    height: 60%;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+
+.site-main .about-area{
+    height: 100%;
+    margin-bottom: 20%;
+}
+
+.site-main .about-area .about-title h2>span{
+    display: block;
+    font:normal bold 49px/60px;
+    font-family: "Roboto";
+    letter-spacing: 21px;
+}
+.site-main .about-area .about-title {
+    padding-left: 5%;
+}
+/* end about me */
+
+
+
+/* Start skills area */
+
+.site-main .skill-area{
+    margin-top: 10%;
+}
+.site-main .skill-area .skills-title{
+    margin-left: 15%;
+    letter-spacing: .8rem;
+}
+
+.site-main .skill-area .ach-box{
+    background-color: #f4c2c2;
+    margin-left: 10%;
+    height:100%;
+    width: 75%;
+    text-align: center;
+}
+.site-main .skill-area .ach-box .ach-title{
+    color: white;
+}
+
+.site-main .skill-area .skill-box{
+    padding-left: 10%;
+}
+.site-main .skill-area .skill-box .bar{
+    width:100%;
+    margin-top: 1%;
+    background-color: rgb(248, 243, 243);
+    height: 24px;
+}
+.site-main .skill-area .skill-box .bar .bar-fill{
+    background-color: rgb(104, 213, 232);
+    height: 24px;
+}
+/* End skills area */
+
+/* Start Work Area */
+.site-main .work-area{
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
+.site-main .work-area .content-row{
+    padding-left: 0%;
+    width: 100%;
+}
+
+.site-main .work-area .single-brand{
+    margin-left: 5%;
+    width: 25%;
+}
+.site-main .work-area .single-brand .brand-img{
+    width: 100%;
+}
+.site-main .work-area .work-content{
+    font-size: 2rem;
+    
+    letter-spacing: 1rem;
+    margin-bottom: 7%;
+    width: 100%;
+   
+}
+.site-main .work-area .work-content >h2{
+    padding-left: 10%;
+   
+}
+/* End Work Area */
+
+/* Start Contact Area */
+
+.site-main .contact-area .row{
+    background-color: #C1DDD8;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ .site-main .contact-area .contact-title{
+     text-align: center;
+    letter-spacing: .8rem;
+    margin-bottom: 5rem;
+}
+ .site-main .contact-area .contact-details >img{
+    height:25%;
+    width: 25%;
+}
+/* End Contact Area */
